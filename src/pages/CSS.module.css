@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buyBtn {
+  padding: 20px;
+}
+.total {
+  font-size: larger;
+  font-weight: bold;
+}
+.Ul {
+  border: 2px solid Black;
+  border-radius: 5px;
+}
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filterCategory,.filterPrice {
+  padding: 50px;
+  display: flex;
+}
+.filterContainer{
+  display: flex;
+  flex-direction: column;
+}
